@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="ru.cardiacare.cardiacare.servey.QuestionnaireActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/clean"
+                android:id="@+id/buttonClean"
+                android:src="@drawable/ic_action_navigation_refresh"
+                android:layout_gravity="right"
+                android:visibility="visible"
+                style="@style/Widget.AppCompat.ImageButton"
+                android:background="@drawable/ic_action_navigation_refresh"
+                android:contentDescription=""
+                tools:ignore="ContentDescription,RtlHardcoded" />
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/recycler_view" />
+
+</android.support.design.widget.CoordinatorLayout>

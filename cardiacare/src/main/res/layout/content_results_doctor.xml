@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ru.cardiacare.cardiacare.hisdocuments.ResultsDoctor"
+    tools:showIn="@layout/activity_results_doctor">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2"
+        android:layout_below="@+id/account_activity_toolbar">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:text="@string/examinationReason"
+                android:id="@+id/ExaminationReason"
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etExaminationReason"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:padding="8dp"
+                android:enabled="false"
+                android:textColor="#ffffff"
+                android:editable="false"
+                android:text="Ivanov Corporation"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:text="@string/visitOrder"
+                android:id="@+id/VisitOrder"
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etVisitOrder"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:padding="8dp"
+                android:enabled="false"
+                android:textColor="#ffffff"
+                android:editable="false"
+                android:text="Ivanov Corporation"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:text="@string/diagnoses"
+                android:id="@+id/Diagnoses"
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etDiagnoses"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:padding="8dp"
+                android:enabled="false"
+                android:textColor="#ffffff"
+                android:editable="false"
+                android:text="Ivanov Corporation"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:text="@string/medications"
+                android:id="@+id/Medications"
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etMedications"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:padding="8dp"
+                android:enabled="false"
+                android:textColor="#ffffff"
+                android:editable="false"
+                android:text="Ivanov Corporation"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:text="@string/smoking"
+                android:id="@+id/Smooking"
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etSmooking"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:padding="8dp"
+                android:enabled="false"
+                android:textColor="#ffffff"
+                android:editable="false"
+                android:text="Ivanov Corporation"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:text="@string/drinking"
+                android:id="@+id/Drinking"
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etDrinking"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:padding="8dp"
+                android:enabled="false"
+                android:textColor="#ffffff"
+                android:editable="false"
+                android:text="Ivanov Corporation"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:text="@string/height"
+                android:id="@+id/Height"
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etHeight"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:padding="8dp"
+                android:enabled="false"
+                android:textColor="#ffffff"
+                android:editable="false"
+                android:text="Ivanov Corporation"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:text="@string/weight"
+            android:id="@+id/Weight"
+            android:padding="8dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etWeight"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:padding="8dp"
+                android:enabled="false"
+                android:textColor="#ffffff"
+                android:editable="false"
+                android:text="Ivanov Corporation"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:text="@string/diseasePredisposition"
+                android:id="@+id/DiseasePredisposition"
+                android:padding="8dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etDiseasePredisposition"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:padding="8dp"
+                android:enabled="false"
+                android:textColor="#ffffff"
+                android:editable="false"
+                android:text="Ivanov Corporation"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

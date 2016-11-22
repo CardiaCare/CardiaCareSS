@@ -1,0 +1,16 @@
+<resources>
+
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="colorPrimary">@color/cardiacare_color_primary</item>
+        <item name="colorPrimaryDark">@color/cardiacare_color_primary_darker</item>
+        <item name="colorAccent">@color/cardiacare_color_accent</item>
+
+    </style>
+
+    <style name="AppBaseTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppBaseTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cardiacare_color_primary">#0097A7</color>
+    <color name="cardiacare_color_primary_darker">#0097A7</color>
+    <color name="cardiacare_color_accent">#6b7770</color>
+    <color name="cardiacare_color_grid">#0097A7</color>
+    <color name="alarm_button_standart_color">#FF0000</color>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/widget_sos"
+    android:minHeight="40dp"
+    android:minWidth="250dp"
+    android:updatePeriodMillis="0">
+</appwidget-provider>
+    <!-- Одна ячейка на экране = 40dp -->
+    <!-- Перевод ячеек в dp: 70 * n – 30, где n - количество ячеек -->

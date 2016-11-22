@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:id="@+id/ContinuousScaleCardView">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/ContinuousScaleQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ContinuousScaleIntervals"
+            android:layout_below="@+id/ContinuousScaleQuestion"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/ContinuousScaleSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ContinuousScaleIntervals"/>
+
+        <TextView
+            android:id="@+id/ContinuousScaleValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_below="@+id/ContinuousScaleSeekBar"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+

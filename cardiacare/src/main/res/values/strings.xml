@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Не используется-->
+    <string name="start">Find and connect</string>
+    <string name="remember">You connected to Bluetooth</string>
+    <string name="auth_dialog_title">Registration failed</string>
+    <string name="auth_dialog_message">Check you registration</string>
+    <string name="help_dialog_title">New alarm</string>
+    <string name="help_dialog_message">Confirm or reject</string>
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_reject">Reject</string>
+    <string name="send_alarm">Press button!</string>
+    <string name="download">Download</string>
+    <string name="login_toast">Please, fill fields</string>
+    <string name="widget_sos_text">SOS</string>
+
+    <!--AndroidManifest.xml-->
+    <string name="app_name">CardiaCare</string>
+    <string name="title_activity_bluetooth_find">Find a device</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_userdata">Userdata</string>
+    <string name="title_activity_user_account">Account</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_questionnaire">Questionnaire</string>
+    <string name="title_activity_documents">Documents</string>
+    <string name="title_activity_demographic_data">Demographic data</string>
+    <string name="title_activity_laboratory_studies">Laboratory studies</string>
+    <string name="title_activity_results_doctor">Survey results doctor</string>
+    <string name="title_activity_results_blood">Results measuring blood pressure</string>
+
+    <!--Диалог на странице регистрации-->
+    <string name="dialog_title">Incorrect name</string>
+    <string name="dialog_message">Check entered data</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <!--Диалог при запуске приложения с выключенным Wi-Fi-->
+    <string name="dialog_wifi_title">There is no network connection</string>
+    <string name="dialog_wifi_message">Turn on Wi-Fi and restart the application</string>
+    <string name="dialog_wifi_positive_button">Go to the Wi-Fi settings</string>
+    <string name="dialog_wifi_negative_button">Restart application</string>
+
+    <!--Диалог при нажатии на кнопку SOS с выключенным GPS-->
+    <string name="dialog_sos_title">Failed to get geodata</string>
+    <string name="dialog_sos_message">The GPS function is disabled. SOS button is unavailable. Do you want to go to the settings to turn on GPS?</string>
+    <string name="dialog_sos_positive_button">Go to the GPS settings</string>
+    <string name="dialog_sos_negative_button">Cancel</string>
+
+    <!--Диалог при запуске приложения с выключенным GPS-->
+    <string name="dialog_gps_title">Failed to get geodata</string>
+    <string name="dialog_gps_message">The GPS function is disabled. Some functions may be unavailable. Do you want to go to the settings to turn on GPS?</string>
+    <string name="dialog_gps_positive_button">Go to the GPS settings</string>
+    <string name="dialog_gps_negative_button">Cancel</string>
+
+    <!--Диалог при нажатии на Alive Bluetooth Monitor c выключенным Bluetooth-->
+    <string name="dialog_bluetooth_title">Bluetooth is turned off</string>
+    <string name="dialog_bluetooth_message">The Bluetooth function is turned off. Some functions may be unavailable. Do you want to go to the settings to turn on Bluetooth?</string>
+    <string name="dialog_bluetooth_positive_button">Go to the Bluetooth settings</string>
+    <string name="dialog_bluetooth_negative_button">Cancel</string>
+
+    <!--Диалог при невозможности подключения к SIB'у-->
+    <string name="dialog_ss_title">The application is not available</string>
+    <string name="dialog_ss_message">Currently, the application can not connect to smart space. Please try again later</string>
+    <string name="dialog_ss_positive_button">Restart application</string>
+    <string name="dialog_ss_negative_button">Close application</string>
+
+    <!--Диалог при невозможности подключения к серверу-->
+    <string name="dialog_server_error_title">Connection error</string>
+    <string name="dialog_server_error_message">Failed to connect to server. Please try again later</string>
+    <string name="dialog_server_error_positive_button">OK</string>
+
+    <!--Диалог при невозможности подключения к медицинской информационной системе-->
+    <string name="dialog_mis_error_title">Connection error</string>
+    <string name="dialog_mis_error_message">Failed to connect to medical information system. Please try again later</string>
+    <string name="dialog_mis_error_positive_button">OK</string>
+
+    <!--Диалог при попытке получить доступ к документам незарегистрированному пользователю-->
+    <string name="dialog_unregistered_user_title">Connection error</string>
+    <string name="dialog_unregistered_user_message">Unregistered user</string>
+    <string name="dialog_unregistered_user_positive_button">OK</string>
+
+    <!--Диалог при попытке получить доступ к несуществующему документу-->
+    <string name="dialog_document_title">Connection error</string>
+    <string name="dialog_document_message">The relevant document was not found</string>
+    <string name="dialog_document_positive_button">OK</string>
+
+    <!--Диалог при ошибке авторизации-->
+    <string name="dialog_authorization_title">Authorization error</string>
+    <string name="dialog_authorization_message">Check entered data</string>
+    <string name="dialog_authorization_positive_button">OK</string>
+
+    <!--action_settings.xml-->
+    <string name="action_settings">Settings</string>
+
+    <!--activity_about.xml-->
+    <string name="content_about">
+    \n <b>Developers</b>
+    \n Iuliia Zavialova
+    \n Kirill Orlov
+    \n Kristina Shevcova
+    \n Vasilii Fokin
+    </string>
+
+    <!--activity_help.xml-->
+    <string name="helpText_step1">Set up two electrodes to the chest </string>
+    <string name="helpText_step2">Switch heart monitor on </string>
+    <string name="helpText_step3">Run CardiaCare app </string>
+    <string name="helpText_step4">Watch your cardiogram</string>
+
+    <!--activity_login.xml-->
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="enter">Enter</string>
+
+    <!--activity_questionnaire.xml-->
+    <string name="clean">Clean</string>
+
+    <!--activity_user_account.xml-->
+    <string name="FirstName">First Name</string>
+    <string name="SecondName">Second Name</string>
+    <string name="PhoneNumber">Phone</string>
+    <string name="Height">Height</string>
+    <string name="Weight">Weight</string>
+    <string name="Age">Age</string>
+
+    <!--activity_user_data.xml-->
+    <string name="tvFirstName">First name</string>
+    <string name="tvSecondName">Second name</string>
+    <string name="phoneNumber">Phone number</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="age">Age</string>
+
+    <!--bluetoothfind.xml-->
+    <string name="refresh">Refresh</string>
+
+    <!--content_demographic_data.xml-->
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="patronymic">Patronymic</string>
+    <string name="birthDate">Birth date</string>
+    <string name="sex">Sex</string>
+    <string name="residence">Residence</string>
+    <string name="contactInformation">Сontact information</string>
+
+    <!--content_documents.xml-->
+    <string name="demographicData">Demographic data</string>
+    <string name="laboratoryStudies">Laboratory studies</string>
+    <string name="resultsDoctor">Survey results doctor</string>
+    <string name="resultsBlood">Results measuring blood pressure</string>
+
+    <!--content_laboratory_studies.xml-->
+    <string name="organizationName">Organization name</string>
+    <string name="hemoglobin">Hemoglobin</string>
+    <string name="erythrocyte">Erythrocyte</string>
+    <string name="hematocrit">Hematocrit</string>
+
+    <!--content_results_blood.xml-->
+    <string name="systolicPressure">Systolic pressure</string>
+    <string name="diastolicPressure">Diastolic pressure</string>
+    <string name="pulse">Pulse</string>
+
+    <!--content_results_doctor.xml-->
+    <string name="examinationReason">Examination reason</string>
+    <string name="visitOrder">Visit order</string>
+    <string name="diagnoses">Diagnoses</string>
+    <string name="medications">Medications</string>
+    <string name="smoking">Smoking</string>
+    <string name="drinking">Drinking</string>
+    <string name="diseasePredisposition">Disease predisposition</string>
+
+    <!--main.xml-->
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="userdata">Account</string>
+    <string name="exit">Exit</string>
+    <string name="ecg">ECG</string>
+    <string name="sos">SOS</string>
+    <string name="pass_survey">Pass survey</string>
+    <string name="documents">Documents</string>
+
+    <!--main.xml(land)-->
+    <string name="content_description">Picture</string>
+
+    <!--screen_main_bluetooth_connected.xml-->
+    <string name="disconnect">Disconnect</string>
+    <string name="continueConnection">Continue</string>
+    <string name="start_instruction">To start, please, connect to a ECG device</string>
+
+    <!--screen_main_loading.xml-->
+    <string name="restart_app">Restart application</string>
+
+    <!--screen_main_sib_authorization-->
+    <string name="sib_enter_name">SIB settings</string>
+
+    <!--screen_main_unregistered.xml-->
+    <string name="enter_name">Introduce!</string>
+    <string name="sign">Sign in</string>
+    <string name="next">Next</string>
+
+    <!--screen_main_user_authorization.xml-->
+    <string name="user_enter_name">Authorization</string>
+
+    <!--BluetoothFindActivity.java-->
+    <string name="bluetoothSearching">Searching, please wait&#8230;</string>
+    <string name="bluetooth_toast1">Your device does not support Bluetooth</string>
+    <string name="bluetooth_toast2">Bluetooth turned on</string>
+    <string name="bluetooth_toast3">Bluetooth is already on</string>
+    <string name="bluetooth_toast4">Status: enabled</string>
+    <string name="bluetooth_toast5">Status: disabled</string>
+
+    <!--LocationService.java-->
+    <string name="wifi_toast">There is no network connection</string>
+
+    <!--MainActivity.java-->
+    <string name="unregistered_user_toast">Unregistered user</string>
+
+</resources>

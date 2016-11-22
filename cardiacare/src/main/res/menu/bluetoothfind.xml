@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      tools:context="ru.cardiacare.cardiacare.bluetooth.BluetoothFindActivity" >
+
+    <item
+        android:id="@+id/refreshList"
+        android:icon="@drawable/ic_action_navigation_refresh"
+        android:orderInCategory="0"
+        app:showAsAction="always"
+        android:title="@string/refresh"/>
+
+</menu>

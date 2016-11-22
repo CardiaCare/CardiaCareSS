@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Не используется-->
+    <string name="start">Найти и подключиться</string>
+    <string name="remember">Вы подключены к кардиомонитору по Bluetooth</string>
+    <string name="auth_dialog_title">Ошибка при регистрации</string>
+    <string name="auth_dialog_message">Check you registration</string>
+    <string name="help_dialog_title">New alarm</string>
+    <string name="help_dialog_message">Confirm or reject</string>
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_reject">Reject</string>
+    <string name="send_alarm">Нажмите кнопку!</string>
+    <string name="download">Загрузка</string>
+    <string name="login_toast">Пожалуйста, заполните все поля</string>
+    <string name="widget_sos_text">ТРЕВОГА</string>
+
+    <!--AndroidManifest.xml-->
+    <string name="app_name">CardiaCare</string>
+    <string name="title_activity_bluetooth_find">Найти устройство</string>
+    <string name="title_activity_help">Помощь</string>
+    <string name="title_activity_login">Логин</string>
+    <string name="title_activity_userdata">Учетная запись</string>
+    <string name="title_activity_user_account">Account</string>
+    <string name="title_activity_about">О приложении</string>
+    <string name="title_activity_questionnaire">Опрос</string>
+    <string name="title_activity_documents">Документы</string>
+    <string name="title_activity_demographic_data">Демографические данные</string>
+    <string name="title_activity_laboratory_studies">Лабораторные исследования</string>
+    <string name="title_activity_results_doctor">Результаты обследования врачом</string>
+    <string name="title_activity_results_blood">Результаты измерения артериального давления</string>
+
+    <!--Диалог на странице регистрации-->
+    <string name="dialog_title">Неверно введено имя</string>
+    <string name="dialog_message">Проверьте введённые данные</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Отмена</string>
+
+    <!--Диалог при запуске приложения с выключенным Wi-Fi-->
+    <string name="dialog_wifi_title">Отсутствует подключение к сети</string>
+    <string name="dialog_wifi_message">Включите Wi-Fi и перезапустите приложение</string>
+    <string name="dialog_wifi_positive_button">Перейти к настройкам Wi-Fi</string>
+    <string name="dialog_wifi_negative_button">Перезапустить приложение</string>
+
+    <!--Диалог при нажатии на кнопку SOS с выключенным GPS-->
+    <string name="dialog_sos_title">Не удалось получить геоданные</string>
+    <string name="dialog_sos_message">Функция GPS отключена. Кнопка SOS недоступна. Желаете перейти к настройкам, чтобы включить GPS?</string>
+    <string name="dialog_sos_positive_button">Перейти к настройкам GPS</string>
+    <string name="dialog_sos_negative_button">Отмена</string>
+
+    <!--Диалог при запуске приложения с выключенным GPS-->
+    <string name="dialog_gps_title">Не удалось получить геоданные</string>
+    <string name="dialog_gps_message">Функция GPS отключена. Некоторые функции могут быть недоступны. Желаете перейти к настройкам, чтобы включить GPS?</string>
+    <string name="dialog_gps_positive_button">Перейти к настройкам GPS</string>
+    <string name="dialog_gps_negative_button">Отмена</string>
+
+    <!--Диалог при нажатии на Alive Bluetooth Monitor c выключенным Bluetooth-->
+    <string name="dialog_bluetooth_title">Bluetooth выключен</string>
+    <string name="dialog_bluetooth_message">Функция Bluetooth отключен. Некоторые функции могут быть недоступны. Желаете перейти к настройкам, чтобы включить Bluetooth?</string>
+    <string name="dialog_bluetooth_positive_button">Перейти к настройкам Bluetooth</string>
+    <string name="dialog_bluetooth_negative_button">Отмена</string>
+
+    <!--Диалог при невозможности подключения к SIB'у-->
+    <string name="dialog_ss_title">Приложение недоступно</string>
+    <string name="dialog_ss_message">В настоящее время приложение не может подключиться к ителлектуальному пространству. Повторите попытку позже</string>
+    <string name="dialog_ss_positive_button">Перезапустить приложение</string>
+    <string name="dialog_ss_negative_button">Закрыть приложение</string>
+
+    <!--Диалог при невозможности подключения к серверу-->
+    <string name="dialog_server_error_title">Ошибка подключения</string>
+    <string name="dialog_server_error_message">Не удалось подключиться к серверу. Повторите попытку позже</string>
+    <string name="dialog_server_error_positive_button">OK</string>
+
+    <!--Диалог при невозможности подключения к медицинской информационной системе-->
+    <string name="dialog_mis_error_title">Ошибка подключения</string>
+    <string name="dialog_mis_error_message">Не удалось подключиться к медицинской информационной системе. Повторите попытку позже</string>
+    <string name="dialog_mis_error_positive_button">OK</string>
+
+    <!--Диалог при попытке получить доступ к документам незарегистрированному пользователю-->
+    <string name="dialog_unregistered_user_title">Ошибка подключения</string>
+    <string name="dialog_unregistered_user_message">Незарегистрированный пользователь</string>
+    <string name="dialog_unregistered_user_positive_button">OK</string>
+
+    <!--Диалог при попытке получить доступ к несуществующему документу-->
+    <string name="dialog_document_title">Ошибка подключения</string>
+    <string name="dialog_document_message">Соответсвующий документ не найден</string>
+    <string name="dialog_document_positive_button">OK</string>
+
+    <!--Диалог при ошибке авторизации-->
+    <string name="dialog_authorization_title">Ошибка авторизации</string>
+    <string name="dialog_authorization_message">Проверьте введенные данные</string>
+    <string name="dialog_authorization_positive_button">OK</string>
+
+    <!--action_settings.xml-->
+    <string name="action_settings">Настройки</string>
+
+    <!--activity_about.xml-->
+    <string name="content_about">
+    \n<b>Руководство пользователя</b>
+    \n
+    \n <b>Введение</b>
+    \n \t Мы живём в 21 веке, когда медицина развита как никогда. Ежедневно врачи спасают тысячи жизней. Люди научились лечить заболевания, некогда считавшиеся неизлечимы- ми. Однако, даже сейчас остаются ситуации, в которых врачи бессильны. Но, что более обидно, нередко попадаются случаи, когда врачи просто-напросто не успевают помочь больному. Одна из причин таких случаев – сердечно-сосудистые заболевания.
+    \n
+    \n По данным Всемирной организации здравоохранения сердечно-сосудистые заболевания являются основной причиной смертности во всём мире. Развитие технологий при- вело к тому, что человек не ведёт активный образ жизни, не придерживается здорового питания, и как следствие у него возникают вредные привычки. Все перечисленные при- чины ведут к развитию сердечно-сосудистых заболеваний. У человека может случиться внезапное обострение болезни в любом месте и в любое время, когда рядом нет специалиста, способного помочь. Именно для таких ситуаций и ведётся разработка сервиса Mobile HealthCare.
+    \n
+    \n <b>Назначение и условия применения</b>
+    \n Данное приложение предназначено для людей с диагностированными сердечно-сосудистыми заболеваниями (далее – пациенты).
+    \n С помощью приложения пациент может пройти опрос о своём самочувствии. Опросы могут быть двух типов.
+    \n Первый тип – периодическое анкетирование наблюдаемых пациентов для отслеживания состояния пациента при нормальных условиях. Главной функцией периодического анкетирование является преждевременное обнаружение отклонений в здоровье пациента и своевременное оказание необходимой помощи.
+    \n Второй тип – опрос, проводимый в критической ситуации, т.е. когда у пациента происходит обострение болезни или ухудшение самочувствия.
+    \n С помощью приложения медицинские работники скорой помощи могут получить результаты опроса пациента, который он прошёл, находясь в критической ситуации. Таким образом, работники скорой помощи смогут заранее узнать некоторые симптомы пациента до прибытия на место вызова.
+    \n Вопросы в опросе могут быть двух типов: открытые и закрытые. В открытом вопросе пользователю либо предоставляется ограниченное поле для ввода, либо возможность прикрепить медиа-файл. В закрытом вопросе пользователь не может вводить текстовую информацию или прикреплять медиа-файлы, он может только выбирать один или несколько ответов из предложенного списка ответов.
+    \n
+    \n <b>Типы вопросов?</b>
+    \n
+    \n <b>Подготовка к работе</b>
+    \n Чтобы начать пользоваться приложением, требуется установить apk-файл на своё устройство (ОС Android) и зарегистрироваться в системе.
+    \n Для корректной работы приложения требуется доступ к сети Интернет.
+    \n
+    \n <b>Описание операций</b>
+    \n При старте приложения на ваше устройство будет автоматически загружен файл с опросом.
+    \n Для начала прохождения опроса требуется нажать на кнопку «PASS SURVEY», расположенную на главном экране приложения.
+    \n Далее следует отвечать на вопросы, исходя из содержания. Вам может быть предложено выбрать один или несколько из возможных вариантов ответа, ввести число/текст, прикрепить медиа файл.
+    \n
+    \n <b>Дальнейшее развитие?</b>
+    \n
+    \n <b>Разработчики</b>
+    \n Над созданием приложения работали:
+    \n Ю. Завьялова
+    \n В. Фокин
+    \n К. Шевцова
+    \n К. Орлов
+    </string>
+
+    <!--activity_help.xml-->
+    <string name="helpText_step1">Подключить электроды кардиомонитора к грудной клетке</string>
+    <string name="helpText_step2">Включить кардиомонитор</string>
+    <string name="helpText_step3">Запустить приложение CardiaCare</string>
+    <string name="helpText_step4">Просмотр ЭКГ</string>
+
+    <!--activity_login.xml-->
+    <string name="login">Вход</string>
+    <string name="password">Пароль</string>
+    <string name="enter">Ввод</string>
+
+    <!--activity_questionnaire.xml-->
+    <string name="clean">Очистить</string>
+
+    <!--activity_user_account.xml-->
+    <string name="FirstName">Имя</string>
+    <string name="PhoneNumber">Телефон</string>
+    <string name="SecondName">Фамилия</string>
+    <string name="Height">Рост</string>
+    <string name="Weight">Возраст</string>
+    <string name="Age">Возраст</string>
+
+    <!--activity_user_data.xml-->
+    <string name="tvFirstName">Фамилия</string>
+    <string name="tvSecondName">Имя</string>
+    <string name="phoneNumber">Номер телефона</string>
+    <string name="height">Рост</string>
+    <string name="weight">Вес</string>
+    <string name="age">Возраст</string>
+
+    <!--bluetoothfind.xml-->
+    <string name="refresh">Обновить</string>
+
+    <!--content_demographic_data.xml-->
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="patronymic">Отчество</string>
+    <string name="birthDate">Дата рождения</string>
+    <string name="sex">Пол</string>
+    <string name="residence">Проживание</string>
+    <string name="contactInformation">Контактная информация</string>
+
+    <!--content_documents.xml-->
+    <string name="demographicData">Демографические данные</string>
+    <string name="laboratoryStudies">Лабораторные исследования</string>
+    <string name="resultsDoctor">Результаты обследования врачом</string>
+    <string name="resultsBlood">Результаты измерения артериального давления</string>
+
+    <!--content_laboratory_studies.xml-->
+    <string name="organizationName">Название организации</string>
+    <string name="hemoglobin">Гемоглобин</string>
+    <string name="erythrocyte">Эритроциты</string>
+    <string name="hematocrit">Гематокрит</string>
+
+    <!--content_results_blood.xml-->
+    <string name="systolicPressure">Систолическое давление</string>
+    <string name="diastolicPressure">Диастолическое давление</string>
+    <string name="pulse">Пульс</string>
+
+    <!--content_results_doctor.xml-->
+    <string name="examinationReason">Исследование причин</string>
+    <string name="visitOrder">Visit order</string>
+    <string name="diagnoses">Диагноз</string>
+    <string name="medications">Препараты</string>
+    <string name="smoking">Вы курите</string>
+    <string name="drinking">Вы употребляете алкоголь</string>
+    <string name="diseasePredisposition">Предрасположенность к болезни</string>
+
+    <!--main.xml-->
+    <string name="about">О приложении</string>
+    <string name="help">Помощь</string>
+    <string name="userdata">Учетная запись</string>
+    <string name="exit">Выход</string>
+    <string name="ecg">ЭКГ</string>
+    <string name="sos">SOS</string>
+    <string name="pass_survey">Пройти опрос</string>
+    <string name="documents">Документы</string>
+
+    <!--main.xml(land)-->
+    <string name="content_description">Рисунок</string>
+
+    <!--screen_main_bluetooth_connected.xml-->
+    <string name="disconnect">Отключить</string>
+    <string name="continueConnection">Продолжить</string>
+    <string name="start_instruction">Пожалуйста, выберите способ подключения</string>
+
+    <!--screen_main_loading.xml-->
+    <string name="restart_app">Перезапустить приложение</string>
+
+    <!--screen_main_sib_authorization-->
+    <string name="sib_enter_name">Настройка подключения к ИП</string>
+
+    <!--screen_main_unregistered.xml-->
+    <string name="enter_name">Вход!</string>
+    <string name="sign">Войти</string>
+    <string name="next">Далее</string>
+
+    <!--screen_main_user_authorization.xml-->
+    <string name="user_enter_name">Авторизация</string>
+
+    <!--BluetoothFindActivity.java-->
+    <string name="bluetoothSearching">Поиск, пожалуйста, подождите&#8230;</string>
+    <string name="bluetooth_toast1">Ваше устройство не поддерживает Bluetooth</string>
+    <string name="bluetooth_toast2">Включите Bluetooth</string>
+    <string name="bluetooth_toast3">Bluetooth уже включен</string>
+    <string name="bluetooth_toast4">Статус: доступен</string>
+    <string name="bluetooth_toast5">Статус: недоступен</string>
+
+    <!--LocationService.java-->
+    <string name="wifi_toast">Отсутствует подключение к сети</string>
+
+    <!--MainActivity.java-->
+    <string name="unregistered_user_toast">Незарегистрированный пользователь</string>
+
+</resources>
